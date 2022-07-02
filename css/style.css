@@ -145,6 +145,12 @@
   }
 
   /* about payments   */
+  .makepayments{
+    background-color: #FAFAFA;
+    margin: 30px 10px 30px 0px;
+    box-shadow: 4px 2px 4px 4px grey;
+    border-radius: 7px;
+  }
   .makepayments img{
     padding-right: 100px;
     width: 100%;
@@ -158,19 +164,19 @@
     padding-right: 100px;
   }
   
-  /* about official 
-  .find-home img{
+  about official 
+  .make-official img{
     padding-right: 100px;
   }
-  .find-home h2{
+  .make-official h2{
     text-align: center;
     padding-right: 100px;
   }
-  .find-home p{
+  .make-official p{
     text-align: center;
     padding-right: 100px;
   }
- */
+
 
 
 
