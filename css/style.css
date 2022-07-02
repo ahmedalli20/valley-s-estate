@@ -1,22 +1,108 @@
-.menu p {
-    display: inline-block;
-    font-size: large;
-    margin-left: 90px;
-    font-family: 'space Grotesk,'' Oleo Script';
-    margin-bottom: 0px;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'space Grotesk,';
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-p#ven {
-    margin: 40px;
-    background-color: blue;
+/* nav bar */
+.menu {
+    display: flex;
+    margin: 40px 100px 20px 70px;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 35px;
+    font-family: 'Oleo Script';
+}
+
+.navlinks {
+    display: flex;
+    gap: 100px;
+    font-size: 23px;
+}
+
+.navlinks p:hover {
+    color: #2549D3;
+    transition: all 0.4s ease 0s;
+}
+
+#button {
+    background-color: #2549D3;
     color: white;
-    height: 30px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px 25px 12px 25px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.view {
-    margin: 25px 50px 75px 100px;
+/* about section*/
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 40px 70px 0 70px;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.about-text {
+    width: 100%;
+}
+
+.about-text h1 {
+    font-size: 80px;
+    color: #0F298B;
+}
+
+.about-text p {
+    font-size: 43px;
+    padding: 15px 0 40px 0;
+    line-height: 60px;
+
+}
+
+.about-buttons {
+    display: flex;
+    gap: 50px;
+
+}
+
+.about-buttons i {
+    color: #0F298B;
+    font-size: 50px;
+}
+
+.about-property{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    margin: 30px 100px 20px 100px;
+    height: 20vh;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 7px;
+
+}
+/* about product */
+.about-product{
+
+}
+
+
+
+/* /* .view {
+   
     display: inline;
     font-size: x-large;
     border: 300px;
@@ -26,9 +112,9 @@ p#ven {
 }
 
 .view h1 {
-    /* color: #2549D3; */
-    color: blue;
-}
+    color: #2549D3;
+   
+} 
 
 .view img {
     float: right;
@@ -37,22 +123,7 @@ p#ven {
     height: 400px;
 }
 
-body {
-    /* width: max-content; */
-    font-family: monospace;
-    width: 1300px;
-    display: inline-block;
-    margin-left: 60px;
-}
 
-.description {
-    font-size: larger;
-    color: #2549D3;
-    margin: 25px 50px 75px 100px;
-    display: inline;
-    text-align: center;
-
-}
 
 p#more {
     margin: 40px;
@@ -78,23 +149,43 @@ p#more {
     text-align: center;
 }
 
-.home img{
+.home img {
     width: 60px;
     height: 80px;
 }
+
 .column {
+    box-sizing: border-box;
     display: block;
     float: left;
     width: 25%;
     padding: 40px 10px;
     margin: 30px;
 
-  }
-.column p{
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.column p {
     font-size: larger;
     text-align: center;
 }
-.column img{
+
+.column img {
     float: none;
 }
+
+.house img {
   
+    display: inline;
+    width: 600px;
+    height: 400px;
+}
+
+.house h1 {
+    color: #2549D3;
+    text-align: center;
+    display: inline;
+} 
