@@ -95,9 +95,28 @@
 
 }
 /* about product */
-.about-product{
+ .about-product{
+    width: 90%;
+    margin: 40px 70px 0 70px;
+ }
+.about-product h1{
+    font-size: 50px;
+    color: #0F298B;
 
 }
+.about-product h2{
+    font-size: 50px;
+    color: #0F298B;
+    text-align: center;
+}
+.about-product p{
+    font-size: 30px;
+   text-align: center;
+
+}
+
+
+
 
 
 
