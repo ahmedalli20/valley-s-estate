@@ -82,7 +82,7 @@
     font-size: 50px;
 }
 
-.about-property{
+.about-property {
     display: flex;
     width: 70%;
     justify-content: space-around;
@@ -94,28 +94,82 @@
     border-radius: 7px;
 
 }
+
 /* about product */
- .about-product{
+.about-product {
     width: 90%;
     margin: 40px 70px 0 70px;
- }
-.about-product h1{
+}
+
+.about-product h1 {
     font-size: 50px;
     color: #0F298B;
 
 }
-.about-product h2{
+
+.about-product h2 {
     font-size: 50px;
     color: #0F298B;
     text-align: center;
 }
-.about-product p{
+
+.about-product p {
     font-size: 30px;
-   text-align: center;
+    text-align: center;
 
+} 
+
+
+/* About how it works */
+.about-payments {
+    display: flex;
+    width: 70%;
+    margin: 30px 200px 20px 200px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
 }
+  .find-home img{
+    padding-right: 100px;
+    width: 100%;
 
+  }
+  .find-home h2{
+    text-align: center;
+    padding-right: 100px;
+  }
+  .find-home p{
+    text-align: center;
+    padding-right: 100px;
 
+  }
+/* 
+  about payments  
+  .find-home img{
+    padding-right: 100px;
+  }
+  .find-home h2{
+    text-align: center;
+    padding-right: 100px;
+  }
+  .find-home p{
+    text-align: center;
+    padding-right: 100px;
+  }
+  
+  /* about official 
+  .find-home img{
+    padding-right: 100px;
+  }
+  .find-home h2{
+    text-align: center;
+    padding-right: 100px;
+  }
+  .find-home p{
+    text-align: center;
+    padding-right: 100px;
+  }
+ */
 
 
 
