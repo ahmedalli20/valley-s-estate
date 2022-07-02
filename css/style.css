@@ -1,0 +1,100 @@
+.menu p {
+    display: inline-block;
+    font-size: large;
+    margin-left: 90px;
+    font-family: 'space Grotesk,'' Oleo Script';
+    margin-bottom: 0px;
+}
+
+p#ven {
+    margin: 40px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.view {
+    margin: 25px 50px 75px 100px;
+    display: inline;
+    font-size: x-large;
+    border: 300px;
+    padding: 680px;
+
+
+}
+
+.view h1 {
+    /* color: #2549D3; */
+    color: blue;
+}
+
+.view img {
+    float: right;
+    display: inline;
+    width: 600px;
+    height: 400px;
+}
+
+body {
+    /* width: max-content; */
+    font-family: monospace;
+    width: 1300px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.description {
+    font-size: larger;
+    color: #2549D3;
+    margin: 25px 50px 75px 100px;
+    display: inline;
+    text-align: center;
+
+}
+
+p#more {
+    margin: 40px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 124px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.prod h1 {
+    color: #2549D3;
+}
+
+.prod h2 {
+    color: #2549D3;
+    text-align: center;
+}
+
+.prod p {
+    text-align: center;
+}
+
+.home img{
+    width: 60px;
+    height: 80px;
+}
+.column {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 40px 10px;
+    margin: 30px;
+
+  }
+.column p{
+    font-size: larger;
+    text-align: center;
+}
+.column img{
+    float: none;
+}
+  
