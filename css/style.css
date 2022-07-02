@@ -176,96 +176,38 @@
     text-align: center;
     padding-right: 100px;
   }
-
-
-
-
-
-/* /* .view {
-   
-    display: inline;
-    font-size: x-large;
-    border: 300px;
-    padding: 680px;
-
-
+/* about why choosing us  */
+.about-choosing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 40px 70px 0 70px;
 }
 
-.view h1 {
+.about-image {
+    width: 100%;
+}
+
+.about-choosing img {
+    width: 100%;
+}
+
+.about-text {
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.about-text h1 {
+    font-size: 40px;
+    color: #0F298B;
+}
+.about-text p {
+    font-size: 30px;
+    padding: 15px 0 40px 0;
+    line-height: 60px;
+}
+.lifestyle i{
     color: #2549D3;
-   
-} 
-
-.view img {
-    float: right;
-    display: inline;
-    width: 600px;
-    height: 400px;
+    display: inline-block;
 }
-
-
-
-p#more {
-    margin: 40px;
-    background-color: blue;
-    color: white;
-    height: 30px;
-    width: 124px;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-
-.prod h1 {
-    color: #2549D3;
-}
-
-.prod h2 {
-    color: #2549D3;
-    text-align: center;
-}
-
-.prod p {
-    text-align: center;
-}
-
-.home img {
-    width: 60px;
-    height: 80px;
-}
-
-.column {
-    box-sizing: border-box;
-    display: block;
-    float: left;
-    width: 25%;
-    padding: 40px 10px;
-    margin: 30px;
-
-}
-
-.column h2 {
-    text-align: center;
-}
-
-.column p {
-    font-size: larger;
-    text-align: center;
-}
-
-.column img {
-    float: none;
-}
-
-.house img {
-  
-    display: inline;
-    width: 600px;
-    height: 400px;
-}
-
-.house h1 {
-    color: #2549D3;
-    text-align: center;
-    display: inline;
-} 
