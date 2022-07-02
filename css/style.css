@@ -117,7 +117,7 @@
     font-size: 30px;
     text-align: center;
 
-} 
+}
 
 
 /* About how it works */
@@ -128,60 +128,71 @@
     justify-content: space-around;
     align-items: center;
     font-size: medium;
+    padding-bottom: 200px;
 }
-  .find-home img{
+
+.find-home img {
     padding-right: 100px;
     width: 100%;
 
-  }
-  .find-home h2{
+}
+
+.find-home h2 {
     text-align: center;
     padding-right: 100px;
-  }
-  .find-home p{
+}
+
+.find-home p {
     text-align: center;
     padding-right: 100px;
 
-  }
+}
 
-  /* about payments   */
-  .makepayments{
+/* about payments   */
+.makepayments {
     background-color: #FAFAFA;
     margin: 30px 10px 30px 0px;
     box-shadow: 4px 2px 4px 4px grey;
     border-radius: 7px;
-  }
-  .makepayments img{
+}
+
+.makepayments img {
     padding-right: 100px;
     width: 100%;
-  }
-  .makepayments h2{
+}
+
+.makepayments h2 {
     text-align: center;
     padding-right: 100px;
-  }
-  .makepayments p{
+}
+
+.makepayments p {
     text-align: center;
     padding-right: 100px;
-  }
-  
-  about official 
-  .make-official img{
+}
+
+about official .make-official img {
     padding-right: 100px;
-  }
-  .make-official h2{
+}
+
+.make-official h2 {
     text-align: center;
     padding-right: 100px;
-  }
-  .make-official p{
+}
+
+.make-official p {
     text-align: center;
     padding-right: 100px;
-  }
+}
+
 /* about why choosing us  */
 .about-choosing {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
     margin: 40px 70px 0 70px;
+    padding-bottom: 200px;
+
 }
 
 .about-image {
@@ -202,12 +213,37 @@
     font-size: 40px;
     color: #0F298B;
 }
+
 .about-text p {
     font-size: 30px;
     padding: 15px 0 40px 0;
     line-height: 60px;
 }
-.lifestyle i{
+
+.lifestyle i {
     color: #2549D3;
     display: inline-block;
+}
+
+.about-featured {
+    padding-bottom: 200px;
+
+}
+
+.about-featured h1 {
+    color: #2549D3;
+    text-align: center;
+}
+
+.about-featured p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.properties {
+    display: flex;
+    width: 70%; 
+   border-radius: 7px;
+   padding-left: 150px;
+   padding-right: 150px;
 }
