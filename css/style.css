@@ -143,16 +143,17 @@
     padding-right: 100px;
 
   }
-/* 
-  about payments  
-  .find-home img{
+
+  /* about payments   */
+  .makepayments img{
     padding-right: 100px;
+    width: 100%;
   }
-  .find-home h2{
+  .makepayments h2{
     text-align: center;
     padding-right: 100px;
   }
-  .find-home p{
+  .makepayments p{
     text-align: center;
     padding-right: 100px;
   }
