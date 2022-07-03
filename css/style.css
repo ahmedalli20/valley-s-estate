@@ -1,9 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'space Grotesk,';
+    font-family: 'Space Grotesk', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 /* nav bar */
@@ -15,7 +16,7 @@
 
 #logo {
     font-size: 35px;
-    font-family: 'Oleo Script';
+    font-family: 'Oleo Script', cursive;
 }
 
 .navlinks {
@@ -122,67 +123,71 @@
 
 /* About how it works */
 .about-payments {
-    display: flex;
-    width: 70%;
-    margin: 30px 200px 20px 200px;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    gap: 60px;
+    width: 80%;
+    margin: 50px 100px 200px 100px;
+    grid-template-columns: repeat(3,1fr);
     font-size: medium;
-    padding-bottom: 200px;
+    
 }
 
-.find-home img {
-    padding-right: 100px;
-    width: 100%;
+.find-home-img {
+   
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-}
+} 
 
 .find-home h2 {
     text-align: center;
-    padding-right: 100px;
+    padding-top: 10px;
+  
 }
 
 .find-home p {
     text-align: center;
-    padding-right: 100px;
-
+    line-height: 25px;
+    padding-bottom: 20px;
+   
 }
 
 /* about payments   */
 .makepayments {
     background-color: #FAFAFA;
-    margin: 30px 10px 30px 0px;
-    box-shadow: 4px 2px 4px 4px grey;
-    border-radius: 7px;
+    /* margin: 30px 10px 30px 0px; */
+    box-shadow: 4px 2px 2px 2px grey;
+    border-radius: 3px;
 }
 
-.makepayments img {
-    padding-right: 100px;
-    width: 100%;
-}
 
 .makepayments h2 {
     text-align: center;
-    padding-right: 100px;
+    padding-top: 10px;
+   
 }
 
 .makepayments p {
     text-align: center;
-    padding-right: 100px;
+    line-height: 25px;
+    padding-bottom: 20px;
+   
 }
 
-about official .make-official img {
-    padding-right: 100px;
-}
+/* about official */
 
 .make-official h2 {
     text-align: center;
-    padding-right: 100px;
+    padding-top: 10px;
 }
 
 .make-official p {
     text-align: center;
-    padding-right: 100px;
+    line-height: 25px;
+    padding-bottom: 20px;
+   
 }
 
 /* about why choosing us  */
@@ -220,14 +225,21 @@ about official .make-official img {
     line-height: 60px;
 }
 
+.lifestyle ul{
+    display: flex;
+    gap: 80px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
 .lifestyle i {
     color: #2549D3;
-    display: inline-block;
+    
 }
 
 .about-featured {
     padding-bottom: 200px;
-
+   
 }
 
 .about-featured h1 {
@@ -239,14 +251,26 @@ about official .make-official img {
     text-align: center;
     font-size: 30px;
 }
+.properties figcaption{
+    display: flex;
+    justify-content: space-between;
+}
 
 .properties {
-    display: flex;
-    width: 70%; 
-   border-radius: 7px;
-   padding-left: 150px;
-   padding-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 50px;
+    border-radius: 7px;
+   background-color:#FAFAFA;
 }
+
+.properties img {
+    width: 540px;
+    margin: 15px;
+   
+}
+
 #button {
     background-color: #2549D3;
     color: white;
@@ -254,36 +278,48 @@ about official .make-official img {
     border-radius: 7px;
     border: none;
     font-size: 15px;
-   float: right;
-  
+    float: right;
+
 }
-  /* about customer feedback */
-/* .client-response{
-    display: flex;
-} */
-.client-response h1{
+
+/* about customer feedback */
+
+.feedback{
+    padding-bottom: 80px;
+}
+
+.client-response h1 {
     text-align: center;
     color: #2549D3;
 
 }
-.client-response p{
+
+.client-response p {
     text-align: center;
     font-size: 23px;
+    padding-bottom: 40px;
 }
- .response{
+
+.response {
     display: flex;
-    justify-content:space-around;
-    padding-bottom: 180px;
- }
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
 
 
- /* about the vallie's estate */
- .about-us{
+/* about the vallie's estate */
+.about-us {
     display: flex;
-    padding-top: 100px;
-    justify-content:space-around;
+    margin: 30px;
+    height: 350px;
+    line-height: 60px;
+    font-size: 20px;
+    padding-top: 240px 240px 240px 240px;
+    justify-content: space-around;
     background-color: #2549D3;
-    padding-bottom: 140px;
-    color: #FAFAFA;
- }
+       color: #FAFAFA;
+}
+.vallies p{
+    line-height: 30px;
 
+}
